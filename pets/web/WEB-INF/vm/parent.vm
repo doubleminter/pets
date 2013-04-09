@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="res/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="res/css/parent.css" rel="stylesheet" media="screen">
+	    <script src="res/js/jquery-1.9.1.min.js"></script>
+		<script src="res/js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function (){
+				setTimeout(function(){
+					$("#banner").slideToggle();				
+				}, 3000);				
+			});
+		</script>
+	</head>
+	<style>
+
+	</style>
+    <body>
+		<div id="theme"></div>
+		<div id="banner">亲，不支持ie哦</div>
+        <div class="container">
+			<div class="title" > <p> Pets </p> </div>
+          ##<p style="font-size:172px;width:100%;text-align:center;margin-top:300px;margin-bottom:0px">Pets</p>
+          <form class="form-signin">
+            <input type="text" class="input-block-level fl" placeholder="邮箱">
+            <input type="password" class="input-block-level fr" placeholder="密码">
+            <button class="btn btn-large btn-block" type="submit" style="font-family:微软雅黑">登录</button>
+          </form>
+        </div>
+    </body>
+	</html>
